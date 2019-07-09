@@ -72,7 +72,7 @@ app.post('/ml', (request, response) => {
   if (processRef === undefined) {
     response.status(400).send({
       error: "The ML file has not been defined."
-    });
+    })
   } else {
     let stream = processRef.stdout
     processRef.stdin.write(request.body + "\n")
