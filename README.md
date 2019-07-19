@@ -1,6 +1,10 @@
 # demo-system-backend
 
-You can run this program with a command 
+First, install the dependencies with a command
+
+### `npm install`
+
+Then you can run this program with a command 
 
 ### `npm start`
 
